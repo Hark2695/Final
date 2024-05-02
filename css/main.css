@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Inter:wght@100..900&family=Kurale&display=swap');
+
+/* universal reset */
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Arsenal", sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(249, 248, 226, 1);
+}
+
+form input{
+    background-color: rgba(108,68,76,1);
+    border: none;
+    color:  rgba(249, 248, 226, 1);
+    padding: 10px 20px;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Arsenal", sans-serif;
+    padding: 2rem;
+}
+nav a:link,nav a:visited{
+    color: rgba(108,68,76,1);
+}
+nav a:hover,nav a:active{
+        color: black;
+}
+#shoppingcart{
+    width: 70%;
+    height: auto;
+}
+
+#lupe{
+    width: 70%;
+    height: auto;
+}
+
+h1{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Arsenal", sans-serif;
+}
+h2{
+    flex-direction: column;
+    justify-content: left;
+    font-size: 4rem;
+}
+
+h3{
+    flex-direction: column;
+    justify-content:center;
+    font-size: 3rem;
+    font-family: "Arsenal", sans-serif;
+    
+}
+h4{
+    flex-direction: column;
+    justify-content:center;
+    font-size: 2rem;
+    font-family: "Arsenal", sans-serif;
+}
+p{
+    flex-direction: column;
+    justify-content:center;
+    font-size: 3 rem;
+    font-family: "Arsenal", sans-serif; 
+}
+
+.btn{
+    font-size: 2rem;
+    background-color: rgba(108,68,76,1);;
+    color: rgba(249, 248, 226, 1);
+    padding: 1rem 1.5rem;
+
+}
+
+.indexproducts{
+    margin: 3rem 3rem; 
+}
+
+#StoryContainer{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url("../img/groceries.jpg");
+    background-color: rgba(255,255,255,.5);
+    background-size: cover;
+    margin-bottom: 20vh;
+    
+    color: rgba(108,68,76,1);
+    font-size: 4rem;
+    font-family: "Arsenal", sans-serif;
+}
+
+#StoryContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: left;
+    max-width: 110rem;
+    margin:2rem auto;
+    font-family: "Arsenal", sans-serif;
+    gap: 2rem;
+    font-size: 2rem;
+    flex-direction: column;
+    
+}  
+
+#StoryContainer3{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: flex-start;
+    background-color: rgba(108,68,76,.5);
+    margin: 2rem auto;
+    background-size: cover;
+}
+
+#StoryContainer4{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: flex-start;
+    background-color: rgba(108,68,76,.5);
+    margin-top: 20vh;
+    background-size: cover;
+}
+
+#StoryContainer5{
+    min-height: 60vh;
+    max-width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    align-content: center;
+    flex-direction: row;
+    background-color: rgba(108,68,76,.5);
+    margin: 0 auto;
+    background-size: cover;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+#StoryContainer6{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: flex-start;
+    background-color: rgba(108,68,76,.5);
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#welcomebox1{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   
+}
+
+
+#welcomebox2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    flex-direction: column;
+   
+}
+
+#Welcomebox1content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0 auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#welcome1{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#arrow{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.SignUp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.ShopbyCountry{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: center;
+    width: 50%;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#shopbycountrypic{
+    width: 50%;
+    background-image: url("../img/ShopbyCountryIMG.png");
+    background-size: cover;
+}
+
+.ShopbyCountry1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-content: flex-start;
+}
+
+.IconShop{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 0 auto;
+    padding: 45px 15px;
+}
+
+.IconShop1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.GermanShop{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+    margin: 0 auto
+}
+.GermanShop1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Container{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color:rgba(249, 248, 226, .75);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin:2rem auto;
+    padding: 1rem;
+    
+}
+
+.btn{
+    direction: flex;
+    justify-content: center;
+    max-width: 20rem;
+    margin:2rem auto;
+    font-family: "Arsenal", sans-serif;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: rgba(108,68,76,1);;
+    color: rgba(249, 248, 226, 1);
+    padding: 1rem;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+#AboutUs{
+    flex-direction: column;
+    justify-content: left;
+    font-family: "Arsenal", sans-serif;
+    font-size: 4rem;
+    background-color:rgba(249, 248, 226, 1);
+    color: rgba(108,68,76,1);
+    
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    background-color:rgba(249, 248, 226, 1);
+    color: rgba(108,68,76,1);
+}
+ h1{
+    text-align: center;
+    padding: 4rem;
+    font-family: "Arsenal", sans-serif;
+ }
+ hr{
+    color: red;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: center;
+ }
+ footer ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Arsenal", sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+footer a:link,nav a:visited{
+    color: rgba(108,68,76,1);
+}
+footer a:hover,nav a:active{
+        color: black;
+}
